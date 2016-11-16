@@ -27,7 +27,6 @@ sourceSets {
 }
 
 mainClassName = "com.alternative.WebVulnerabilityScanner"
-//applicationDefaultJvmArgs = ["-Dwebdriver.chrome.driver=~/tools/chromedriver"]
 run {
     if ( project.hasProperty("appArgs") ) {
         args Eval.me(appArgs)
