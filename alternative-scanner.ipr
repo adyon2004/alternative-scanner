@@ -7,14 +7,10 @@
       <entry name=".+\.(gif|png|jpeg|jpg)" />
     </resourceExtensions>
     <wildcardResourcePatterns>
-      <entry name="!?.java" />
-      <entry name="!?.form" />
-      <entry name="!?.class" />
-      <entry name="!?.groovy" />
-      <entry name="!?.scala" />
-      <entry name="!?.flex" />
-      <entry name="!?.kt" />
-      <entry name="!?.clj" />
+      <entry name="!?*.class" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.java" />
+      <entry name="!?*.groovy" />
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
@@ -86,8 +82,7 @@
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Gradle: cglib:cglib-nodep:3.2.4">
